@@ -1,0 +1,642 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+/* body {} */
+
+/* header */
+/* Imgtezal */
+
+
+.Imgtezal {
+    width: 100px;
+    height: 80px;
+}
+
+@media screen and (max-width: 992px) {
+    .Imgtezal {
+        width: 90px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Imgtezal {
+        width: 75px;
+        height: 55px;
+    }
+}
+
+.ul-List {
+    width: 100% !important;
+}
+
+.chetor {
+    position: relative;
+}
+
+.chetor::before {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid black;
+    width: 99%;
+    left: 0;
+    bottom: -7px;
+}
+
+.svgOne {
+    width: 30px;
+    height: 30px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .Header23 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Header13 {
+        display: none;
+        width: 0px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Header14 {
+        width: auto !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header00 {
+        display: none !important;
+    }
+}
+
+/* Section */
+
+.SectionImg {
+    width: 100vw;
+    height: 500px;
+}
+
+.SectionImg2 {
+    width: 100vw;
+    height: 440px;
+}
+
+@media screen and (max-width: 400px) {
+    .SectionImg2 {
+        width: 100vw;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .SectionImg {
+        width: 100vw;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .SectionImg {
+        width: 100vw;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .SectionImg {
+        width: 100vw;
+        height: 230px;
+    }
+}
+
+
+.OneImg {
+    width: 60px;
+    height: 60px;
+}
+
+/* Section2 */
+
+.father {
+    position: relative;
+}
+
+.brother {
+    position: absolute;
+    top: -130px;
+}
+
+/* Sectio3 */
+.Imgtwo {
+    width: 340px;
+    height: 250px;
+}
+
+.BehinyabloanF {
+    position: relative;
+}
+
+.BehinyabloanC {
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    width: 100% !important;
+    opacity: 0.8;
+}
+
+.BehinyabloanF2 {
+    position: relative;
+}
+
+.BehinyabloanC2 {
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    width: 100% !important;
+    opacity: 0.8;
+}
+
+.BehinyabloanF3 {
+    position: relative;
+}
+
+.BehinyabloanC3 {
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    width: 100% !important;
+    opacity: 0.8;
+}
+
+.textP {
+    font-family: "yekan";
+    font-size: larger;
+}
+
+.BehinyabloanFF:hover {
+    box-shadow: 2px 2px 20px 10px rgb(233, 233, 233), -2px -2px 20px 10px rgb(233, 233, 233);
+}
+
+.BehinyabloanFF2:hover {
+    box-shadow: 2px 2px 20px 10px rgb(233, 233, 233), -2px -2px 20px 10px rgb(233, 233, 233);
+}
+
+.BehinyabloanFF3:hover {
+    box-shadow: 2px 2px 20px 10px rgb(233, 233, 233), -2px -2px 20px 10px rgb(233, 233, 233);
+}
+
+.BehinyabloanFF3:hover .BehinyabloanC3 {
+    opacity: 1;
+}
+
+.BehinyabloanFF2:hover .BehinyabloanC2 {
+    opacity: 1;
+}
+
+.BehinyabloanFF:hover .BehinyabloanC {
+    opacity: 1;
+}
+
+.p34 {
+    font-family: "yekan";
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* Sectio4 */
+
+.overPart {
+    overflow-x: scroll !important;
+}
+
+@media screen and (max-width: 991.5px) {
+    .overPart {
+        overflow-x: hidden !important;
+    }
+}
+@media screen and (min-width: 1285.5px) {
+    .overPart {
+        overflow-x: hidden !important;
+    }
+}
+
+@media screen and (min-width: 991.5px) {
+    .UlList{
+        width: 1000px;
+    }
+    .UlList .btnGestd {
+        float: left;
+        width: 125px;
+    }
+
+    .UlList:hover .part {
+        width: 150px;
+    }
+}
+
+.overPart::-webkit-scrollbar {
+    height: 8px;
+    background-color: rgb(184, 178, 178);
+    border-radius: 5px;
+}
+
+.overPart::-webkit-scrollbar-track {
+    box-shadow: inset -2px -2px 4px -1px #af0202;
+    border-radius: 5px;
+}
+
+.overPart::-webkit-scrollbar-thumb {
+    background-color: rgb(93, 110, 245);
+    border-radius: 5px;
+}
+
+.PartP {
+    font-family: "yekan";
+}
+
+@media screen and (max-width: 1166px) {
+    .PartP {
+        font-family: "yekan";
+        font-size: 20px;
+    }
+}
+
+.ImgPart {
+    width: 80% !important;
+}
+
+.tezalP {
+    font-family: 'yekan';
+    font-size: 28px;
+}
+
+.gestImg3 {
+    width: 220px;
+    height: 200px;
+    transition: all 0.2s;
+}
+
+.gestImg {
+    width: 300px;
+    height: 250px;
+    transition: all 0.2s;
+}
+
+@media screen and (max-width: 1280.5px) {
+    .gestImg {
+        width: 250px;
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 1080.5px) {
+    .gestImg {
+        width: 225px;
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 991.5px) {
+    .gestImg {
+        width: 300px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 768.5px) {
+    .gestImg {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+.btnGest {
+    position: relative;
+    transition: all 0.5s;
+    transition-timing-function: ease;
+}
+
+.btnGestC {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -30px;
+    transition: all 0.5s;
+    transition-timing-function: ease;
+}
+
+.btnGest:hover .btnGestC {
+    bottom: -20px;
+    width: 165px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.2s;
+    transition-timing-function: ease-in;
+}
+
+.part {
+    transition: all 0.5S ease-out;
+}
+
+/* .part:hover {
+    transform: rotateY(360deg);
+} */
+
+/* Footer */
+
+.phone1 {
+    width: 30px;
+    height: 30px;
+}
+
+.CHanalImg {
+    width: 35px;
+    height: 35px;
+}
+
+.CHanalImg1 {
+    width: 115px;
+    height: 60px;
+}
+
+.Imgtezal2 {
+    width: 100px;
+    height: 80px;
+}
+
+.ullist2 {
+    transition: all 0.2s;
+    transition-timing-function: ease-in;
+}
+
+.ullist2:hover {
+    background-color: grey;
+    color: rgb(211, 211, 211);
+    border-radius: 8px;
+    padding: 0px 3px;
+}
+
+.fff {
+    box-sizing: border-box;
+}
+
+.fff2 {
+    box-sizing: border-box;
+}
+
+.fff3 {
+    box-sizing: border-box;
+}
+
+.fff4 {
+    box-sizing: border-box;
+}
+
+.fffp {
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 768.5px) {
+    .callborder {
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .callborder {
+        border-bottom: 1px solid black;
+    }
+}
+
+
+/* what */
+
+.whpp {
+    font-family: "yekan";
+}
+
+/* what2 */
+
+.whppp2 {
+    position: relative;
+}
+
+.whppp2h2 {
+    font-family: "yekan";
+    font-size: 35px;
+}
+
+.whppp2::before {
+    content: "";
+    display: block;
+    position: absolute;
+
+    top: 115px;
+    bottom: 0;
+    left: calc(50% - 2px);
+    z-index: -1;
+    width: 3px;
+    background-image: url(../assest/Img/Line_steps.png);
+}
+
+.whppp2-1 {
+    display: flex;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.whppp2-1-1 {
+    width: calc(50% - 51px);
+    min-height: 192px;
+}
+
+.whppp2-empty {
+    width: calc(50% - 51px);
+}
+
+/* whpp3 */
+
+.whpp3 {
+    font-family: "yekan";
+    font-size: 30px;
+}
+
+
+/* what4 */
+
+.whpp4 {
+    font-family: "yekan";
+}
+
+/* Guide */
+
+.guideh2 {
+    font-family: "yekan";
+    box-shadow: 0px 34px 33px -39px grey, 0px -34px 33px -39px grey;
+}
+
+.guideh4 {
+    position: relative;
+}
+
+.guideh4::after {
+    content: '';
+    height: 2px;
+    width: 12%;
+    position: absolute;
+    bottom: -14px;
+    left: 44%;
+    border-bottom: 1px solid black;
+}
+
+.guide1 {
+    padding: 0 20px;
+    width: 27%;
+}
+
+.guide1p {
+    font-family: "yekan";
+    font-size: 23px;
+}
+
+
+/* Document */
+
+.DocColLeft {
+    box-shadow: 7px 2px 8px -11px grey;
+}
+
+.Docp1 {
+    font-family: "yekan";
+    font-size: 28px;
+}
+
+.DocLink {
+    font-size: 24px;
+}
+
+@media screen and (max-width: 910px) {
+    .DocLink {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .DocLink {
+        font-size: 15px;
+    }
+}
+
+/* SellerRequest */
+
+.Sellimg {
+    width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    .Sellimg {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Sellimg {
+        width: 75%;
+    }
+}
+
+.sellp1,
+.sellp2 {
+    font-family: 'yekan';
+    font-size: 38px;
+}
+
+.sellp3 {
+    font-family: 'yekan2';
+    font-size: 18px;
+}
+
+.sell1 {
+    position: relative;
+}
+
+
+.sell1-2 {
+    position: absolute;
+    right: -40px;
+    bottom: -30px;
+}
+
+.sell1-2 {
+    position: absolute;
+    right: -40px;
+    bottom: -30px;
+}
+
+@media screen and (max-width: 992px) {
+    .sell1-2 {
+        right: 20px;
+        bottom: -30px;
+        font-size: 15px;
+    }
+
+    .sell1-2 h2 {
+        right: -5px;
+        bottom: -30px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sell1-2 {
+        right: 15px;
+        bottom: -30px;
+        font-size: 15px;
+    }
+
+    .sell1-2 h2 {
+        right: -5px;
+        bottom: -30px;
+        font-size: 25px;
+    }
+}
+
+.sellh2 {
+    font-family: "yekan";
+    font-weight: 900;
+    font-size: 32px;
+}
+
+
+.sellvalue {
+    font-family: "yekan";
+}
+
+.sellvaluep {
+    font-family: "yekan2";
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.FooterP {
+    text-align: justify;
+}

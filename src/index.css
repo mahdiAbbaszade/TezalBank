@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "yekan";
+  src: url("../src/assest/font//IRANYekanMedium.ttf");
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "yekan2";
+  src: url("../src/assest/font/IRANYekanLight.ttf");
+
+}
+
+* {
+  font-family: "yekan2";
+}
+
+body {
+  overflow-x: hidden;
+  min-width: 350px;
+}
+
+@media screen and (max-width: 550px) {
+  body {
+    overflow-x: auto;
+  }
 }
